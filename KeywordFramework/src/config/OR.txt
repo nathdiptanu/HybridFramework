@@ -1,0 +1,15 @@
+#fullfilment cockpit
+txtbx_UserID=//input[@id='userId']
+txtbx_Password=//input[@id='password']
+btn_LogIn=//button[@class='btn btn-primary']
+btn_options=//div[2]/div[1]/a/span
+btn_cockpit=//a[span[contains(text(),'FULLFILLMENT COCKPIT')]]
+btn_orderType=//md-select-label[@id='select_label_1']
+select_item=//md-option/div
+select_1st_order=//table[@id='DataTables_Table_0']/tbody/tr[1]
+select_orderStatus=//md-select-label[@id='select_label_2']
+btn_Save=//input[@class='cockpit-save-button']
+btn_Logout=//a[@href='/logout']
+
+
+
